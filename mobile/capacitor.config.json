@@ -1,0 +1,17 @@
+{
+  "appId": "com.jimao.saltline",
+  "appName": "几猫3A大作",
+  "webDir": "www",
+  "backgroundColor": "#0b0d0f",
+  "zoomingEnabled": false,
+  "android": {
+    "androidScheme": "https",
+    "captureInput": true,
+    "webContentsDebuggingEnabled": false
+  },
+  "ios": {
+    "contentInset": "never",
+    "allowsLinkPreview": false,
+    "webContentsDebuggingEnabled": false
+  }
+}

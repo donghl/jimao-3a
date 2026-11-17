@@ -1,0 +1,17 @@
+{
+  "name": "几猫国产3A大作",
+  "short_name": "几猫3A",
+  "description": "单文件 WebGL 第一人称射击：几猫港区行动，切断三处上行中继后撤离。",
+  "lang": "zh-CN",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "fullscreen",
+  "orientation": "landscape",
+  "background_color": "#0b0d0f",
+  "theme_color": "#0b0d0f",
+  "icons": [
+    { "src": "./icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "./icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "./icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

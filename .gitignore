@@ -1,0 +1,6 @@
+mobile/www/
+mobile/node_modules/
+mobile/android/
+mobile/ios/
+.DS_Store
+npm-debug.log*

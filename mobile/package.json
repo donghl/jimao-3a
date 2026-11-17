@@ -1,0 +1,24 @@
+{
+  "name": "jimao-3a-mobile",
+  "private": true,
+  "version": "1.0.0",
+  "description": "几猫3A大作 手机壳层：PWA 站点 + Capacitor 原生壳",
+  "scripts": {
+    "build": "node build.mjs",
+    "verify": "node build.mjs && node verify.mjs",
+    "serve": "node build.mjs && npx --yes http-server www -p 8123 -c-1 -o",
+    "platforms": "npx cap add android && npx cap add ios && node post-add.mjs",
+    "sync": "node build.mjs && npx cap sync && node post-add.mjs",
+    "postadd": "node post-add.mjs",
+    "apk": "node build.mjs && npx cap sync android && node post-add.mjs && cd android && ./gradlew assembleDebug --no-daemon",
+    "perf:device": "node device-perf.mjs",
+    "android": "node build.mjs && npx cap sync android && node post-add.mjs && npx cap open android",
+    "ios": "node build.mjs && npx cap sync ios && node post-add.mjs && npx cap open ios"
+  },
+  "devDependencies": {
+    "@capacitor/android": "^8.6.2",
+    "@capacitor/cli": "^8.6.2",
+    "@capacitor/core": "^8.6.2",
+    "@capacitor/ios": "^8.6.2"
+  }
+}
